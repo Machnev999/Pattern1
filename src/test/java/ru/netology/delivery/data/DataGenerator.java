@@ -23,7 +23,7 @@ public class DataGenerator {
     }
 
     public static String generateCity(String locale) {
-        String[] City = {"Москва", "Питер", "Казань", "Сочи", "Севастополь", "Краснодар", "Челябинск", "Екатеринбург"};
+        String[] City = {"Москва", "Уфа", "Казань", "Сочи", "Севастополь", "Краснодар", "Челябинск", "Екатеринбург"};
         Random random = new Random();
         int i = random.nextInt(City.length);
         // TODO: добавить логику для объявления переменной city и задания её значения, генерацию можно выполнить
